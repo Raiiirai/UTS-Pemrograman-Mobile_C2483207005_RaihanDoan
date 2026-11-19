@@ -1,16 +1,23 @@
+import 'package:uts_pemrograman_mobile/screens/daftar_tugas_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const AppTugas());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class AppTugas extends StatelessWidget {
+  const AppTugas({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Pencatatan Tugas',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Colors.indigo,
+      ),
+      home: const DaftarTugasPage(),
     );
   }
 }
