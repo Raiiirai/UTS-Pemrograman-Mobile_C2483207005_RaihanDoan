@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:aplikasi_pencatatan_tugas/model/tugas.dart';
-import 'package:aplikasi_pencatatan_tugas/screens/form_tugas_page.dart';
-import 'package:aplikasi_pencatatan_tugas/screens/detail_tugas_page.dart';
+import 'package:uts_pemrograman_mobile/model/tugas.dart';
+import 'package:uts_pemrograman_mobile/screens/form_tugas_page.dart';
+import 'package:uts_pemrograman_mobile/screens/detail_tugas_page.dart';
 
 class DaftarTugasPage extends StatefulWidget {
   const DaftarTugasPage({super.key});
