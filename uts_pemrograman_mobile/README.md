@@ -46,7 +46,7 @@ Data pada prototipe disimpan sementara di dalam `List<Tugas>` pada memori aplika
 ```text
 lib/
 ├── main.dart
-├── models/
+├── model/
 │   └── tugas.dart
 └── screens/
     ├── daftar_tugas_page.dart
@@ -55,7 +55,6 @@ lib/
 
 screenshots/
 ├── 01_Halaman_Utama.png
-├── 02_Halaman_Daftar.png
 ├── 03_Form_Tambah.png
 ├── 04_Halaman_Detail.png
 ├── 05_Form_Edit.png
@@ -64,9 +63,6 @@ screenshots/
 ├── 08_Hasil_Update.png
 ├── 09_Hasil_Delete.png
 └── 10_Validasi_Form.png
-```
-
-Folder `screenshots/` perlu dibuat dan diisi dengan screenshot asli dari aplikasi yang berjalan di emulator atau perangkat Android. Nama berkas di atas mengikuti ketentuan dokumentasi UTS.
 
 ## Instalasi dan Menjalankan Aplikasi
 
@@ -119,8 +115,6 @@ Tidak diperlukan package pihak ketiga. Proyek mengikuti batasan soal UTS untuk m
 
 ## Screenshot Aplikasi
 
-Tambahkan screenshot asli ke folder `screenshots/` dengan nama berkas berikut. Setelah berkas tersedia, gambar akan tampil di bagian ini pada tampilan GitHub.
-
 ### 1. Halaman Utama
 
 ![Halaman Utama](screenshots/01_Halaman_Utama.png)
@@ -159,19 +153,12 @@ Tambahkan screenshot asli ke folder `screenshots/` dengan nama berkas berikut. S
 
 ## Video Demonstrasi YouTube
 
-**URL video:** `ISI_DENGAN_URL_VIDEO_YOUTUBE`
-
-Ganti teks di atas dengan URL video demonstrasi YouTube yang sudah diunggah. Pastikan visibilitas video adalah **Unlisted** atau **Public**, bukan Private, agar dapat diakses dosen.
+**URL video:**
 
 ## Repository GitHub
 
-**URL repository:** `ISI_DENGAN_URL_REPOSITORY_GITHUB`
+**URL repository: https://github.com/Raiiirai/UTS-Pemrograman-Mobile_C2483207005/tree/main/uts_pemrograman_mobile**
 
-Gunakan nama repository sesuai format tugas:
-
-```text
-UTS-Pemrograman-Mobile-C2483207005-Raihan-Doan
-```
 
 ## Catatan Pengembangan
 
